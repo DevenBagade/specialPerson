@@ -154,7 +154,7 @@
 
     function getToKnow() {
       var userName = document.getElementById("userNameInput").value;
-      var specialPerson = "My most special person is someone you " + userName;
+      var specialPerson = "My most special person is you " + userName;
       var heartbeating = "<span id='heartbeat'>&#10084;</span>";
       document.getElementById("outputDiv").innerHTML = specialPerson;
       document.getElementById("heart").innerHTML = heartbeating;
